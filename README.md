@@ -58,3 +58,12 @@ list users according to id
 
 
 user id is integer number which is the id of the registered data
+
+
+
+to run the server 
+use
+
+uvicorn <filename>:app --reload
+
+eg: uvicorn test2:app --reload
